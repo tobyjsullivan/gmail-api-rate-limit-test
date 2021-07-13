@@ -8,7 +8,9 @@ Measure how fast emails can be sent via the Gmail API.
    - Set up for Internal use to allow restricted scopes.
 2. Generate OAuth credentials
    - Instructions: https://developers.google.com/workspace/guides/create-credentials
-   - Required scopes: `'https://www.googleapis.com/auth/gmail.readonly', 'https://www.googleapis.com/auth/gmail.send'`
+   - Required scopes:
+      - `https://www.googleapis.com/auth/gmail.readonly`
+      - `https://www.googleapis.com/auth/gmail.send`
 3. Create the file `credentials.json` with the required scopes.
 
 ## Install dependencies
@@ -36,4 +38,4 @@ The columns are:
 * `Subject` - The subject of the test email.
 * `Body` - The body of the test email.
 
-Load the output CSV your favourite spreadsheet tool to analyze how frequently messages can be sent before you get 409 responses indicating rate limiting.
+Load the output CSV in your favourite spreadsheet tool to analyze how frequently messages can be sent before you get 409 responses indicating rate limiting.
