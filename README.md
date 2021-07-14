@@ -5,7 +5,7 @@ Measure how fast emails can be sent via the Gmail API.
 ## Prerequisites
 
 1. Create a Google Cloud App in the console.
-   - Set up for Internal use to allow restricted scopes.
+   - Set up for Internal use to allow sensitive scopes.
 2. Generate OAuth credentials
    - Instructions: https://developers.google.com/workspace/guides/create-credentials
    - Required scopes:
